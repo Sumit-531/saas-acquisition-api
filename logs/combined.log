@@ -1,0 +1,2 @@
+{"level":"info","message":"Hello from Acquisitions API","service":"saas-acquisition-api","timestamp":"2025-12-03T10:16:57.901Z"}
+{"level":"info","message":"::1 - - [03/Dec/2025:10:16:57 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"saas-acquisition-api","timestamp":"2025-12-03T10:16:57.920Z"}
