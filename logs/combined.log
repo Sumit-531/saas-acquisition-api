@@ -36,3 +36,13 @@
 {"level":"info","message":"User sumitchakraborty218@gmail.com created successfully","service":"saas-acquisition-api","timestamp":"2025-12-06T07:48:25.162Z"}
 {"level":"info","message":"User registered successfully: sumitchakraborty218@gmail.com","service":"saas-acquisition-api","timestamp":"2025-12-06T07:48:25.166Z"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [06/Dec/2025:07:48:25 +0000] \"POST /api/v1/auth/sign-up HTTP/1.1\" 201 127 \"-\" \"insomnia/12.1.0\"","service":"saas-acquisition-api","timestamp":"2025-12-06T07:48:25.169Z"}
+{"level":"info","message":"Hello from Acquisitions API","service":"saas-acquisition-api","timestamp":"2025-12-06T19:18:59.861Z"}
+{"level":"info","message":"::1 - - [06/Dec/2025:19:18:59 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"saas-acquisition-api","timestamp":"2025-12-06T19:18:59.877Z"}
+{"level":"info","message":"User sumitchakrabortyking@gmail.com created successfully","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:18.512Z"}
+{"level":"info","message":"User registered successfully: sumitchakrabortyking@gmail.com","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:18.522Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [06/Dec/2025:19:19:18 +0000] \"POST /api/v1/auth/sign-up HTTP/1.1\" 201 128 \"-\" \"insomnia/12.1.0\"","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:18.528Z"}
+{"level":"info","message":"User sumitchakrabortyking@gmail.com authenticated successfully","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:49.449Z"}
+{"level":"info","message":"User signed in successfully: sumitchakrabortyking@gmail.com","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:49.452Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [06/Dec/2025:19:19:49 +0000] \"POST /api/v1/auth/sign-in HTTP/1.1\" 200 127 \"-\" \"insomnia/12.1.0\"","service":"saas-acquisition-api","timestamp":"2025-12-06T19:19:49.453Z"}
+{"level":"info","message":"User signed out successfully","service":"saas-acquisition-api","timestamp":"2025-12-06T19:20:36.676Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [06/Dec/2025:19:20:36 +0000] \"POST /api/v1/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"insomnia/12.1.0\"","service":"saas-acquisition-api","timestamp":"2025-12-06T19:20:36.678Z"}
