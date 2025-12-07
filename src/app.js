@@ -5,6 +5,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import logger from '#config/logger.js';
 import authRoutes from '#routes/auth.routes.js';
+import securityMiddleware from '#middleware/security.middleware.js';
 
 const app = express();
 
@@ -20,19 +21,19 @@ app.use(
   })
 );
 
+app.use(securityMiddleware);
+
 app.get('/', (req, res) => {
   logger.info('Hello from Acquisitions API');
   res.status(200).send('Hello from Acquisitions API');
 });
 
 app.get('/health', (req, res) => {
-  res
-    .status(200)
-    .json({
-      status: 'OK',
-      timestamp: new Date().toISOString(),
-      uptime: process.uptime(),
-    });
+  res.status(200).json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+  });
 });
 
 app.get('/api', (req, res) => {
