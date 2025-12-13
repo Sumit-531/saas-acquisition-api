@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+logs
+.git
+.gitignore
+.neon_local
+.env
+.env.*
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode
+.idea

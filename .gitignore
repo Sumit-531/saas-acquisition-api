@@ -1,4 +1,7 @@
 node_modules
 .env
+.env.*
+.neon_local
 assets
 README.md
+DOCKER.md.neon_local/
